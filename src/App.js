@@ -1,20 +1,30 @@
 import easterpanhancav from './easternpanhancav.jpg'
 import eastercav from './easternpancav.jpg'
-
 import './App.css';
+import React,{useState} from 'react'
+
+
 
 function App() {
+
+  const {isBig, setisBig} = useState('true');
+  function ToggleIsBig(){
+    
+    setisBig('false')
+    console.log(isBig)
+    }
   return (
     <div className="App">
         <img src={eastercav} className='logo' alt="logo" />
       <header className="App-header">
       <a href='https://www.facebook.com/groups/444599141095663'>
-        <h2>Check out our Facebook page:</h2>
+        <h2>Check out our Facebook page!</h2>
         </a>
-        <div>
+        <div className='asd'>
           <h2>TRYOUTS!</h2>
         </div>
-        <img src={easterpanhancav} className="App-logo" alt="logo" />
+        <img onClick={ToggleIsBig}src={easterpanhancav} className="App-logo" alt="logo" />
+
 
         <div>
           <h2>FAQs</h2>
