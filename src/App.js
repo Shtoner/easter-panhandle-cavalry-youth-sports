@@ -1,55 +1,48 @@
-import easterpanhancav from './easternpanhancav.jpg'
-import eastercav from './easternpancav.jpg'
+import {NavLink,Routes, Route} from 'react-router-dom'
+import Home from './Home'
+import FAQ from './FAQ'
+import Forms from './Forms'
+import Teams from './Teams'
+import Gallery from './Gallery'
+import Sponsor from './Sponsor'
+import Contact from './Contact'
 import './App.css';
-import React,{useState} from 'react'
 
 
-
-function App() {
-
-  const {isBig, setisBig} = useState('true');
-  function ToggleIsBig(){
-    
-    setisBig('false')
-    console.log(isBig)
-    }
-  return (
-    <div className="App">
-        <img src={eastercav} className='logo' alt="logo" />
-      <header className="App-header">
-      <a href='https://www.facebook.com/groups/444599141095663'>
-        <h2>Check out our Facebook page!</h2>
-        </a>
-        <div className='asd'>
-          <h2>TRYOUTS!</h2>
-        </div>
-        <img onClick={ToggleIsBig}src={easterpanhancav} className="App-logo" alt="logo" />
+const Nav = () =>{
+    return(
+        <nav className='nav'>
+            <ul>
+            <li className='linav'><NavLink to = '/'>Home </NavLink></li>
+            <li className='linav'><NavLink to = '/Contact'>Contact Us! </NavLink></li>
+            <li className='linav'><NavLink to = '/FAQs'>FAQs </NavLink></li>
+            <li className='linav'><NavLink to = '/Forms'>Forms </NavLink></li>
+            <li className='linav'><NavLink to = '/Teams'>Teams </NavLink></li>
+            <li className='linav'><NavLink to = '/Gallery'>Gallery </NavLink></li>
+            <li className='linav'><NavLink to = '/Donations/Sponsorships'>Donations/Sponsorships </NavLink></li>
 
 
-        <div>
-          <h2>FAQs</h2>
-          -Eastern Panhandle Cavalry is a travel team competing in the American Youth Football league (AYF)  NOT RECREATION🚫⛔️
--Athlete must attend tryouts! (January 28, 2022) 10am/ location TBD
--ONLY 7U/8U SQUADS are participating in spring leagues. All recruitment is for 2023 Fall Season
--Whatever age the athlete is on July 31 will be the age group that athlete will play in.
--Away games are at least 1.5 hours up to 3 hours away from martinsburg. Playoffs travel distance is unlimited.
--Practice will be in Berkeley County/Martinsburg 
--unlimited weight limit league.
--our WEEKLY winter workouts are and always have been FREE!!! 
--No people are not just coming over and joining team, and staff. All parties are selected and chosen. 
--As we love to teach life lessons through football, WE the EP CAVALRY ARE ABSOLUTELY COMPETING TO WIN!
-        </div>
-        <div>
-          <h2>Shout Out Our Sponsors!</h2>
-    <ul>
-      <li>Cardinal Realty Group Inc.</li>
-      <li>Negley's Water and Well Drilling</li>
-      <li>Johnathan Knight</li>
-    </ul>
-        </div>
-      </header>
-    </div>
-  );
+            </ul>
+        </nav>
+    )
 }
 
-export default App;
+const Main =()=>(
+    <Routes>
+    <Route path='/' element={<Home/>}></Route>
+    <Route path='/Contact' element={<Contact/>}></Route>
+    <Route path='/FAQs' element={<FAQ/>}></Route>
+    <Route path='/Forms' element={<Forms/>}></Route>
+    <Route path='/Teams' element={<Teams/>}></Route>
+    <Route path='/Gallery' element={<Gallery/>}></Route>
+    <Route path='/Donations/Sponsorships' element={<Sponsor/>}></Route>
+    </Routes>
+)
+function App(){
+    return(<>
+        <Nav/>
+        <Main/>
+        </>
+    )
+}
+export default App

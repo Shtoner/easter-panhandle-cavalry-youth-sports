@@ -1,0 +1,34 @@
+.flyer{
+    scale: .2;
+    position: relative;
+    bottom: 26em;
+}
+
+@media screen and (min-width:350px) {
+    .flyer{
+        scale: .4;
+        bottom: 18em;
+    }
+    
+}
+@media screen and (min-width:480px) {
+    .flyer{
+        scale: .4;
+        bottom: 16em;
+    }
+    
+}
+@media screen and (min-width:700px) {
+    .flyer{
+        scale: .6;
+        bottom: 10em;
+    }
+    
+}
+@media screen and (min-width:1000px) {
+    .flyer{
+        scale: .8;
+        bottom: 5em;
+    }
+    
+}
