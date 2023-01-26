@@ -1,0 +1,27 @@
+.App-logo4 {
+    height: 30vmin;
+    width:30%;
+  }
+.App-logo3 {
+scale: .95;
+width: 100%;
+  }
+  .App-logo2 {
+    height: 50vmin;
+    width:33%;
+  }
+  .App-header2 {
+    margin-top: .55em;
+    background-color: #282c34;
+    /* background-color: transparent; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    text-shadow: 2px 2px 1px  black;
+  width: 100%;
+  }

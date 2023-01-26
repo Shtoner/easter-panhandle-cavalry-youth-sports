@@ -8,7 +8,7 @@ export default function Contact(){
         <header className='App-header'>
             <h1>Contact Us!</h1>
             <h2>Rod Holloway</h2>
-            <h2>rod@aprilleonardteam.com</h2>
+            <h2>Roderick.j.Holloway@gmail.com</h2>
             <h2>304-620-1743</h2>
         </header>
 

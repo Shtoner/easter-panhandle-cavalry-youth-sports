@@ -29,26 +29,22 @@ function Home() {
 {/* <a>Donations/Sponsorships</a>
 field equipment(
 ) */}
-Contact Us(email,name,phone number)
-<div></div>
         <div>
           <h2>About Us</h2>
           Eastern Panhandle Cavalry Youth Football Team is a non-profit program under Eastern Panhandle Cavalry Youth Sports. We are continuously looking for sponsors to assist us in the purchasing of personal protective equipment as well as field equipment which are needed to have a successful and safe season. We solicit your support in the forms of sponsorships and donations both monetary and by the purchase/donating of equipment. Your support helps our organization tremendously by lowering cost for the players families for travel, lodging, equipment, and most importantly the experience. Our EP Cavalry YFT is a part of the American Youth Football League (AYF), that compete a national level. Our team is composed of youth athletes from Berkeley, Jefferson, and Morgan County, and extend just across our border to neighboring communities in Winchester and Hagerstown. The EP Cavalry Organization gives youth athletes from all over the Eastern Panhandle and neighboring communities the opportunity to compete with each other and build relationships.
 
 
         </div>
-        <div>
           <h2>Shout Out Our Sponsors!</h2>
     <ul>
-         <li><img src={image1} className='brand'/><h2>Cardinal Realty Group, Inc.</h2></li>
-      <li><img src={image0} className='brand' /><h2>THE APRIL LEONARD TEAM</h2></li>
-         <li><img src={image2} className='brand'/><h2>Negley's Water and Well Drilling</h2></li>
-         <li><img src={image3} className='brand'/><h2>Mountaineer Pub</h2></li>
-         <li><img src={eNe} className='brand'/><h2>Enter & Exit</h2></li>
-      <li><h2>Johnathan Knight Century 21</h2></li>
-      <li><h2>Lemon Enterprises, Inc.</h2></li>
+         <li id='sponsor'><img src={image1} className='brand'/><h3>Cardinal Realty Group, Inc.</h3></li>
+      <li id='sponsor'><img src={image0} className='brand' /><h3>THE APRIL LEONARD TEAM</h3></li>
+         <li id='sponsor'><img src={image2} className='brand'/><h3>Negley's Water and Well Drilling</h3></li>
+         <li id='sponsor'><img src={image3} className='brand'/><h3>Mountaineer Pub</h3></li>
+         <li id='sponsor'><img src={eNe} className='brand'/><h3>Enter & Exit</h3></li>
+      <li id='sponsor'><h3>Johnathan Knight Century 21</h3></li>
+      <li id='sponsor'><h3>Lemon Enterprises, Inc.</h3></li>
     </ul>
-        </div>
       </header>
     </div>
   );
