@@ -41,8 +41,18 @@ import vid1 from './gallery/vid1.MOV'
 import vid2 from './gallery/vid2.MOV'
 
 import './Gallery.css'
+import { useState } from 'react'
 
 export default function Gallery(){
+const [isBig,setIsBig] = useState(false)
+function fire(e){
+    if(isBig){
+        document.exitFullscreen()
+    }else{
+        e.currentTarget.requestFullscreen();
+    }
+    setIsBig(!isBig)
+}
     return(
         <div className='App'>
         <img src={Logo} className='logo' alt="logo" />
@@ -51,36 +61,36 @@ export default function Gallery(){
         <video className='App-logo3'src={vid2}controls></video>
         <video className='App-logo2' src={vid1}controls></video>
 
-        <img className='App-logo2' src={One}></img>
-        <img className='App-logo2'src={Two}></img>
-        <img className='App-logo2'src={Three}></img>
-        <img className='App-logo2'src={Four}></img>
-        <img src={Five} className='App-logo2'></img>
-        <img src={Six} className='App-logo2'></img>
-        <img src={Seven}className='App-logo2'></img>
-        <img src={Eight}className='App-logo2'></img>
-        <img className='App-logo2'src={Nine}></img>
-        <img className='App-logo2'src={Ten}></img>
-        <img className='App-logo2'src={Eleven}></img>
-        <img className='App-logo2'src={Twelve}></img>
-        <img className='App-logo2'src={Thirteen}></img>
-        <img className='App-logo2'src={Fourteen}></img>
-        <img className='App-logo2'src={Fifteen}></img>
-        <img className='App-logo2'src={Sixteen}></img>
-        <img className='App-logo2'src={Seventeen}></img>
-        <img className='App-logo2'src={Eighteen}></img>
-        <img className='App-logo2'src={Nineteen}></img>
-        <img className='App-logo2'src={Twenty}></img>
-        <img className='App-logo2'src={Twentyone}></img>
-        <img className='App-logo2'src={Twenty2}></img>
-        <img className='App-logo2'src={Twenty3}></img>
-        <img className='App-logo2'src={Twenty4}></img>
-        <img className='App-logo2'src={Twenty5}></img>
-        <img className='App-logo2'src={Twenty6}></img>
-        <img className='App-logo2'src={Twenty7}></img>
-        <img className='App-logo2'src={Twenty8}></img>
-        <img className='App-logo2'src={Twenty9}></img>
-        <img className='App-logo2'src={Thirty}></img>
+        <img onClick={fire}className='App-logo2' src={One}></img>
+        <img onClick={fire}className='App-logo2'src={Two}></img>
+        <img onClick={fire}className='App-logo2'src={Three}></img>
+        <img onClick={fire}className='App-logo2'src={Four}></img>
+        <img onClick={fire}src={Five} className='App-logo2'></img>
+        <img onClick={fire}src={Six} className='App-logo2'></img>
+        <img onClick={fire}src={Seven}className='App-logo2'></img>
+        <img onClick={fire}src={Eight}className='App-logo2'></img>
+        <img onClick={fire}className='App-logo2'src={Nine}></img>
+        <img onClick={fire}className='App-logo2'src={Ten}></img>
+        <img onClick={fire}className='App-logo2'src={Eleven}></img>
+        <img onClick={fire}className='App-logo2'src={Twelve}></img>
+        <img onClick={fire}className='App-logo2'src={Thirteen}></img>
+        <img onClick={fire}className='App-logo2'src={Fourteen}></img>
+        <img onClick={fire}className='App-logo2'src={Fifteen}></img>
+        <img onClick={fire}className='App-logo2'src={Sixteen}></img>
+        <img onClick={fire}className='App-logo2'src={Seventeen}></img>
+        <img onClick={fire}className='App-logo2'src={Eighteen}></img>
+        <img onClick={fire}className='App-logo2'src={Nineteen}></img>
+        <img onClick={fire}className='App-logo2'src={Twenty}></img>
+        <img onClick={fire}className='App-logo2'src={Twentyone}></img>
+        <img onClick={fire}className='App-logo2'src={Twenty2}></img>
+        <img onClick={fire}className='App-logo2'src={Twenty3}></img>
+        <img onClick={fire}className='App-logo2'src={Twenty4}></img>
+        <img onClick={fire}className='App-logo2'src={Twenty5}></img>
+        <img onClick={fire}className='App-logo2'src={Twenty6}></img>
+        <img onClick={fire}className='App-logo2'src={Twenty7}></img>
+        <img onClick={fire}className='App-logo2'src={Twenty8}></img>
+        <img onClick={fire}className='App-logo2'src={Twenty9}></img>
+        <img onClick={fire}className='App-logo2'src={Thirty}></img>
 
 
             </header>

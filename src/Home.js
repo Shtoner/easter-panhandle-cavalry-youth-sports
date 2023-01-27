@@ -31,19 +31,23 @@ field equipment(
 ) */}
         <div>
           <h2>About Us</h2>
-          Eastern Panhandle Cavalry Youth Football Team is a non-profit program under Eastern Panhandle Cavalry Youth Sports. We are continuously looking for sponsors to assist us in the purchasing of personal protective equipment as well as field equipment which are needed to have a successful and safe season. We solicit your support in the forms of sponsorships and donations both monetary and by the purchase/donating of equipment. Your support helps our organization tremendously by lowering cost for the players families for travel, lodging, equipment, and most importantly the experience. Our EP Cavalry YFT is a part of the American Youth Football League (AYF), that compete a national level. Our team is composed of youth athletes from Berkeley, Jefferson, and Morgan County, and extend just across our border to neighboring communities in Winchester and Hagerstown. The EP Cavalry Organization gives youth athletes from all over the Eastern Panhandle and neighboring communities the opportunity to compete with each other and build relationships.
+          Our Mission
+
+The Eastern Panhandle Cavalry Youth Football organization is a non-profit organization, and one of many under The Eastern Panhandle Cavalry Youth Sports Association. We are based out of Martinsburg, WV, and are a part of the American Youth Football League (AYFL), that competes at a national level. Our teams are composed of youth athletes from Berkeley, Jefferson, and Morgan counties, and extend just across our border to neighboring communities and counties. The EP Cavalry Organization gives youth athletes from all over the Eastern Panhandle and neighboring communities the opportunity to compete with each other and build relationships.
+
+EP Cavalry YFT provides area kids with the opportunity to achieve their dreams through personal development as well as athletic training. We work with our children to promote: good character; hard work; dedication; sportsmanship; learn responsibility & teamwork; perseverance, and self-confidence. EPC provides a structured, safe, and secure environment for the children to learn these life skills. 
 
 
         </div>
           <h2>Shout Out Our Sponsors!</h2>
     <ul>
-         <li id='sponsor'><img src={image1} className='brand'/><h3>Cardinal Realty Group, Inc.</h3></li>
-      <li id='sponsor'><img src={image0} className='brand' /><h3>THE APRIL LEONARD TEAM</h3></li>
-         <li id='sponsor'><img src={image2} className='brand'/><h3>Negley's Water and Well Drilling</h3></li>
-         <li id='sponsor'><img src={image3} className='brand'/><h3>Mountaineer Pub</h3></li>
-         <li id='sponsor'><img src={eNe} className='brand'/><h3>Enter & Exit</h3></li>
-      <li id='sponsor'><h3>Johnathan Knight Century 21</h3></li>
-      <li id='sponsor'><h3>Lemon Enterprises, Inc.</h3></li>
+         <li id='sponsor'><img src={image1} className='brand'/><h3 className='brandname'>Cardinal Realty Group, Inc.</h3></li>
+      <li id='sponsor'><img src={image0} className='brand' /><h3 className='brandname'>THE APRIL LEONARD TEAM</h3></li>
+         <li id='sponsor'><img src={image2} className='brand'/><h3 className='brandname'>Negley's Water and Well Drilling</h3></li>
+         <li id='sponsor'><img src={image3} className='brand'/><h3 className='brandname'>Mountaineer Pub</h3></li>
+         <li id='sponsor'><img src={eNe} className='brand'/><h3 className='brandname'>Enter & Exit</h3></li>
+      <li id='sponsor'><h3 className='brandname'>Johnathan Knight Century 21</h3></li>
+      <li id='sponsor'><h3 className='brandname'>Lemon Enterprises, Inc.</h3></li>
     </ul>
       </header>
     </div>
