@@ -1,4 +1,3 @@
-import easterpanhancav from './easternpanhancav.jpg'
 import eastercav from './easternpancav.jpg'
 import Logo from './image0.png'
 import image0 from './attachments/image0.png'
@@ -21,9 +20,8 @@ function Home() {
         <h2>Check out our Facebook page!</h2>
         </a>
         <div className='asd'>
-          <h2>TRYOUTS!</h2>
+          <h3 className='brandname'>(Tryout Info is on the Facebook page)</h3>
         </div>
-        <img src={easterpanhancav} className="App-logo" alt="logo" />
 
 
 {/* <a>Donations/Sponsorships</a>
