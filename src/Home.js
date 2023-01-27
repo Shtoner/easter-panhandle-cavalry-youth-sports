@@ -32,9 +32,9 @@ field equipment(
         <div>
           <h2>About Us</h2>
           Our Mission
-
+<br></br>
 The Eastern Panhandle Cavalry Youth Football organization is a non-profit organization, and one of many under The Eastern Panhandle Cavalry Youth Sports Association. We are based out of Martinsburg, WV, and are a part of the American Youth Football League (AYFL), that competes at a national level. Our teams are composed of youth athletes from Berkeley, Jefferson, and Morgan counties, and extend just across our border to neighboring communities and counties. The EP Cavalry Organization gives youth athletes from all over the Eastern Panhandle and neighboring communities the opportunity to compete with each other and build relationships.
-
+<br></br>
 EP Cavalry YFT provides area kids with the opportunity to achieve their dreams through personal development as well as athletic training. We work with our children to promote: good character; hard work; dedication; sportsmanship; learn responsibility & teamwork; perseverance, and self-confidence. EPC provides a structured, safe, and secure environment for the children to learn these life skills. 
 
 

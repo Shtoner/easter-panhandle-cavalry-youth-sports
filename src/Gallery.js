@@ -91,6 +91,14 @@ function fire(e){
         <img onClick={fire}className='App-logo2'src={Twenty8}></img>
         <img onClick={fire}className='App-logo2'src={Twenty9}></img>
         <img onClick={fire}className='App-logo2'src={Thirty}></img>
+        <img onClick={fire}className='App-logo2'src={Thirty1}></img>
+        <img onClick={fire}className='App-logo2'src={Thirty2}></img>
+        <img onClick={fire}className='App-logo2'src={Thirty3}></img>
+        <img onClick={fire}className='App-logo2'src={Thirty4}></img>
+        <img onClick={fire}className='App-logo2'src={Thirty5}></img>
+        <img onClick={fire}className='App-logo2'src={Thirty6}></img>
+        <img onClick={fire}className='App-logo2'src={Thirty7}></img>
+        <img onClick={fire}className='App-logo2'src={Thirty8}></img>
 
 
             </header>
