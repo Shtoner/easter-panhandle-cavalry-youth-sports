@@ -55,6 +55,15 @@ li{
   margin-top: 0em;
   margin-bottom: 3em;
 }
+#sponsor2{
+  background: linear-gradient(white,rgb(128, 118, 0));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0em;
+  margin-bottom: 3em;
+  text-shadow: none;
+  background-color: white;
+}
 
 .brandname{
   margin-top: 0em;
