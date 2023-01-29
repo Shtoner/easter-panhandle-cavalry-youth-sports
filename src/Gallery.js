@@ -61,44 +61,44 @@ function fire(e){
         <video className='App-logo3'src={vid2}controls></video>
         <video className='App-logo2' src={vid1}controls></video>
 
-        <img onClick={fire}className='App-logo2' src={One}></img>
-        <img onClick={fire}className='App-logo2'src={Two}></img>
-        <img onClick={fire}className='App-logo2'src={Three}></img>
-        <img onClick={fire}className='App-logo2'src={Four}></img>
-        <img onClick={fire}src={Five} className='App-logo2'></img>
-        <img onClick={fire}src={Six} className='App-logo2'></img>
-        <img onClick={fire}src={Seven}className='App-logo2'></img>
-        <img onClick={fire}src={Eight}className='App-logo2'></img>
-        <img onClick={fire}className='App-logo2'src={Nine}></img>
-        <img onClick={fire}className='App-logo2'src={Ten}></img>
-        <img onClick={fire}className='App-logo2'src={Eleven}></img>
-        <img onClick={fire}className='App-logo2'src={Twelve}></img>
-        <img onClick={fire}className='App-logo2'src={Thirteen}></img>
-        <img onClick={fire}className='App-logo2'src={Fourteen}></img>
-        <img onClick={fire}className='App-logo2'src={Fifteen}></img>
-        <img onClick={fire}className='App-logo2'src={Sixteen}></img>
-        <img onClick={fire}className='App-logo2'src={Seventeen}></img>
-        <img onClick={fire}className='App-logo2'src={Eighteen}></img>
-        <img onClick={fire}className='App-logo2'src={Nineteen}></img>
-        <img onClick={fire}className='App-logo2'src={Twenty}></img>
-        <img onClick={fire}className='App-logo2'src={Twentyone}></img>
-        <img onClick={fire}className='App-logo2'src={Twenty2}></img>
-        <img onClick={fire}className='App-logo2'src={Twenty3}></img>
-        <img onClick={fire}className='App-logo2'src={Twenty4}></img>
-        <img onClick={fire}className='App-logo2'src={Twenty5}></img>
-        <img onClick={fire}className='App-logo2'src={Twenty6}></img>
-        <img onClick={fire}className='App-logo2'src={Twenty7}></img>
-        <img onClick={fire}className='App-logo2'src={Twenty8}></img>
-        <img onClick={fire}className='App-logo2'src={Twenty9}></img>
-        <img onClick={fire}className='App-logo2'src={Thirty}></img>
-        <img onClick={fire}className='App-logo2'src={Thirty1}></img>
-        <img onClick={fire}className='App-logo2'src={Thirty2}></img>
-        <img onClick={fire}className='App-logo2'src={Thirty3}></img>
-        <img onClick={fire}className='App-logo2'src={Thirty4}></img>
-        <img onClick={fire}className='App-logo2'src={Thirty5}></img>
-        <img onClick={fire}className='App-logo2'src={Thirty6}></img>
-        <img onClick={fire}className='App-logo2'src={Thirty7}></img>
-        <img onClick={fire}className='App-logo2'src={Thirty8}></img>
+        <img onMouseDown={fire}className='App-logo2' src={One}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Two}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Three}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Four}></img>
+        <img onMouseDown={fire}src={Five} className='App-logo2'></img>
+        <img onMouseDown={fire}src={Six} className='App-logo2'></img>
+        <img onMouseDown={fire}src={Seven}className='App-logo2'></img>
+        <img onMouseDown={fire}src={Eight}className='App-logo2'></img>
+        <img onMouseDown={fire}className='App-logo2'src={Nine}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Ten}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Eleven}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Twelve}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Thirteen}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Fourteen}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Fifteen}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Sixteen}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Seventeen}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Eighteen}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Nineteen}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Twenty}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Twentyone}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Twenty2}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Twenty3}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Twenty4}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Twenty5}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Twenty6}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Twenty7}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Twenty8}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Twenty9}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Thirty}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Thirty1}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Thirty2}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Thirty3}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Thirty4}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Thirty5}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Thirty6}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Thirty7}></img>
+        <img onMouseDown={fire}className='App-logo2'src={Thirty8}></img>
 
 
             </header>
