@@ -50,13 +50,13 @@ function fire(e){
         if (document.exitFullscreen) {
             document.exitFullscreen();
         } else if (document.webkitExitFullscreen) {
-            document.webkitExitFullscreen();
+            document.webkitCancelFullscreen();
         }
     } else {
         if (e.currentTarget.requestFullscreen) {
-            e.currentTarget.requestFullscreen();
+            e.target.requestFullscreen();
         } else if (e.currentTarget.webkitRequestFullscreen) {
-            e.currentTarget.webkitRequestFullscreen();
+            e.target.webkitRequestFullscreen();
         }
     }
     setIsBig(!isBig)
