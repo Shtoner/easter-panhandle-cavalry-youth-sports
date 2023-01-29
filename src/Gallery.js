@@ -62,8 +62,8 @@ function fire(e){
         <video className='App-logo2' src={vid1}controls></video>
 
         <img onClickCapture={fire}className='App-logo2' src={One}></img>
-        <img onMouseDown={fire}className='App-logo2'src={Two}></img>
-        <img onMouseDown={fire}className='App-logo2'src={Three}></img>
+        <img onMouseDownCapture={fire}className='App-logo2'src={Two}></img>
+        <img onMouseDown={alert('asdf')}className='App-logo2'src={Three}></img>
         <img onMouseDown={fire}className='App-logo2'src={Four}></img>
         <img onMouseDown={fire}src={Five} className='App-logo2'></img>
         <img onMouseDown={fire}src={Six} className='App-logo2'></img>
