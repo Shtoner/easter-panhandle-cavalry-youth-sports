@@ -46,10 +46,18 @@ import { useState } from 'react'
 export default function Gallery(){
 const [isBig,setIsBig] = useState(false)
 function fire(e){
-    if(isBig){
-        document.exitFullscreen()
-    }else{
-        e.currentTarget.requestFullscreen();
+    if (isBig) {
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        }
+    } else {
+        if (e.currentTarget.requestFullscreen) {
+            e.currentTarget.requestFullscreen();
+        } else if (e.currentTarget.webkitRequestFullscreen) {
+            e.currentTarget.webkitRequestFullscreen();
+        }
     }
     setIsBig(!isBig)
 }
@@ -61,7 +69,7 @@ function fire(e){
         <video className='App-logo3'src={vid2}controls></video>
         <video className='App-logo2' src={vid1}controls></video>
 
-        <img onMouseDown={fire}className='App-logo2' src={One}></img>
+        <img onClick={fire}className='App-logo2' src={One}></img>
         <img onMouseDown={fire}className='App-logo2'src={Two}></img>
         <img onMouseDown={fire}className='App-logo2'src={Three}></img>
         <img onMouseDown={fire}className='App-logo2'src={Four}></img>
