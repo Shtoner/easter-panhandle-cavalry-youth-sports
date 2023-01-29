@@ -53,9 +53,9 @@ function fire(e){
             document.webkitCancelFullscreen();
         }
     } else {
-        if (e.currentTarget.requestFullscreen) {
+        if (e.target.requestFullscreen) {
             e.target.requestFullscreen();
-        } else if (e.currentTarget.webkitRequestFullscreen) {
+        } else if (e.target.webkitRequestFullscreen) {
             e.target.webkitRequestFullscreen();
         }
     }
