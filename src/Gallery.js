@@ -42,23 +42,33 @@ import vid2 from './gallery/vid2.MOV'
 
 import './Gallery.css'
 import { useState } from 'react'
+import screenfull from 'screenfull';
 
 export default function Gallery(){
 const [isBig,setIsBig] = useState(false)
 function fire(e){
-    if (isBig) {
-        if (document.exitFullscreen) {
-            document.exitFullscreen();
-        } else if (document.webkitExitFullscreen) {
-            document.webkitCancelFullscreen();
+    // if (isBig) {
+    //     if (document.exitFullscreen) {
+    //         document.exitFullscreen();
+    //     } else if (document.webkitExitFullscreen) {
+    //         document.webkitCancelFullscreen();
+    //     }
+    // } else {
+    //     if (e.target.requestFullscreen) {
+    //         e.target.requestFullscreen();
+    //     } else if (e.target.webkitRequestFullscreen) {
+    //         e.target.webkitRequestFullscreen();
+    //     }
+    // }
+        if (screenfull.isEnabled) {
+          if (isBig) {
+            screenfull.exit();
+            // setIsFullscreen(false);
+          } else {
+            screenfull.request(e.target);
+            // setIsFullscreen(true);
+          }
         }
-    } else {
-        if (e.target.requestFullscreen) {
-            e.target.requestFullscreen();
-        } else if (e.target.webkitRequestFullscreen) {
-            e.target.webkitRequestFullscreen();
-        }
-    }
     setIsBig(!isBig)
 }
     return(
