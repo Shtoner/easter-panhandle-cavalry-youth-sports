@@ -9,6 +9,7 @@ width: 100%;
   .App-logo2 {
     height: 50vmin;
     width:33%;
+    cursor: pointer;
   }
   .App-header2 {
     margin-top: .55em;
