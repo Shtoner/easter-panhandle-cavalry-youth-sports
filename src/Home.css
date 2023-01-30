@@ -56,6 +56,7 @@ li{
   margin-bottom: 3em;
 }
 #sponsor2{
+  color:white;
   background: linear-gradient(white,rgb(128, 118, 0));
   background-clip: text;
   -webkit-text-fill-color: transparent;
