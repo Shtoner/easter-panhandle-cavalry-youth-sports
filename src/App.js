@@ -15,11 +15,11 @@ const Nav = () =>{
         <nav className='nav'>
             <ul>
             <li className='linav'><NavLink to = '/'>Home </NavLink></li>
-            <li className='linav'><NavLink to = '/Contact'>Contact Us! </NavLink></li>
             <li className='linav'><NavLink to = '/FAQs'>FAQs </NavLink></li>
-            <li className='linav'><NavLink to = '/Forms'>Forms </NavLink></li>
-            <li className='linav'><NavLink to = '/Teams'>Teams </NavLink></li>
             <li className='linav'><NavLink to = '/Gallery'>Gallery </NavLink></li>
+            <li className='linav'><NavLink to = '/Teams'>Teams </NavLink></li>
+            <li className='linav'><NavLink to = '/Forms'>Forms </NavLink></li>
+            <li className='linav'><NavLink to = '/Contact'>Contact Us! </NavLink></li>
             <li className='linav'><NavLink to = '/Conference'>Our Conference </NavLink></li>
             <li className='linav'><NavLink to = '/Donations/Sponsorships'>Donations/Sponsorships </NavLink></li>
 

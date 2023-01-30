@@ -37,15 +37,13 @@ EP Cavalry YFT provides area kids with the opportunity to achieve their dreams t
         </div>
         <br></br>
           <h2>Shout Out Our Sponsors!</h2>
-    <ul>
-         <li id='sponsor'><img src={image1} className='brand'/><h3 className='brandname'>Cardinal Realty Group, Inc.</h3></li>
-      <li id='sponsor'><img src={image0} className='brand' /><h3 className='brandname'>THE APRIL LEONARD TEAM</h3></li>
-         <li id='sponsor'><img src={image2} className='brand'/><h3 className='brandname'>Negley's Water and Well Drilling</h3></li>
-         <li id='sponsor'><img src={image3} className='brand'/><h3 className='brandname'>Mountaineer Pub</h3></li>
-         <li id='sponsor'><img src={eNe} className='brand'/><h3 className='brandname'>Enter & Exit</h3></li>
-      <li id='sponsor2'><h3 className='brandname'>Johnathan Knight, Century 21</h3></li>
-      <li id='sponsor2'><h3 className='brandname'>Lemon Enterprises, Inc.</h3></li>
-    </ul>
+         <div id='sponsor'><img src={image1} className='brand'/><h3 className='brandname'>Cardinal Realty Group, Inc.</h3></div>
+      <div id='sponsor'><img src={image0} className='brand' /><h3 className='brandname'>THE APRIL LEONARD TEAM</h3></div>
+         <div id='sponsor'><img src={image2} className='brand'/><h3 className='brandname'>Negley's Water and Well Drilling</h3></div>
+         <div id='sponsor'><img src={image3} className='brand'/><h3 className='brandname'>Mountaineer Pub</h3></div>
+         <div id='sponsor'><img src={eNe} className='brand'/><h3 className='brandname'>Enter & Exit</h3></div>
+      <div id='sponsor2'><h3 className='brandname'>Johnathan Knight, Century 21</h3></div>
+      <div id='sponsor2'><h3 className='brandname'>Lemon Enterprises, Inc.</h3></div>
       </header>
     </div>
   );
