@@ -70,8 +70,8 @@ li{
 }
 
 .brand{
-  width: 50%;
-  height: 15vw;
+  width:75vmin;
+  height: 50vmin;
 }
 
 @media
