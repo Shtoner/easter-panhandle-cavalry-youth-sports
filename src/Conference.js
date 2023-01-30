@@ -10,6 +10,7 @@ import pic8 from './conference/8.PNG'
 import pic9 from './conference/9.PNG'
 import pic10 from './conference/10.PNG'
 import pic11 from './conference/11.PNG'
+import pic12 from './conference/12.png'
 
 
 
@@ -25,8 +26,6 @@ export default function Conference(){
 <h3 className='brandname'>Dmv Hammers-Aldie, VA</h3>
 <img src={pic2} className='App-header2'/>
 <h3 className='brandname'>Aim High Panthers-Centreville, VA</h3>
-<img src={pic3} className='App-header2'/>
-<h3 className='brandname'></h3>
 <img src={pic4} className='App-header2'/>
 <h3 className='brandname'>Virginia Knights-Stafford, VA</h3>
 <img src={pic5} className='App-header2'/>
@@ -41,8 +40,10 @@ export default function Conference(){
 <h3 className='brandname'>Common Wealth Warriors-Manasses, VA</h3>
 <img src={pic10} className='App-header2'/>
 <h3 className='brandname'>Alexandria Titans-Alexandria, VA</h3>
-<img src={pic11} className='App-header2'/>
+<img src={pic12} className='App-header2'/>
 <h3 className='brandname'>703 United-Fairfax, VA</h3>
+<img src={pic3} className='App-header2'/>
+<h3 className='brandname'>All Stars</h3>
             </header>
         </div>
     )
