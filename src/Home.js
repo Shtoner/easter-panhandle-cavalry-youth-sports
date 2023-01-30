@@ -20,7 +20,7 @@ function Home() {
         <h2>Check out our Facebook page!</h2>
         </a>
         <div className='asd'>
-          <h3 className='brandname'>(Tryout Info is on the Facebook Page.)</h3>
+          <h3 className='brandname'>(For information on upcoming team events, please visit our Facebook page, as it's being updated hourly.)</h3>
         </div>
 
 
