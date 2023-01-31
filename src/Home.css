@@ -75,15 +75,37 @@ li{
   height: 50vmin;
 }
 
-@media
+@media only screen 
+and (min-device-width : 200px) 
+and (max-device-width : 480px) {
+#sponsor2{
+  color:white;
+  background:unset;
+  background-clip: unset;
+  -webkit-text-fill-color: unset;
+  margin-top: 0em;
+  margin-bottom: 3em;
+  text-shadow: 2px 2px 1px  black;
+  background-color: unset;
+}
+}
+/* @media
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 #sponsor2{
+  color:white;
+  background:unset;
+  background-clip: unset;
+  -webkit-text-fill-color: unset;
   margin-top: 0em;
   margin-bottom: 3em;
-  color: white;
+  text-shadow: 2px 2px 1px  black;
+  background-color: unset;
 }
-}
+} */
+
+
+
 /* @media screen and (min-width:541px){
 
     .App-header{
