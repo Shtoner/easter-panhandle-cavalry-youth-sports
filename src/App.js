@@ -18,7 +18,6 @@ const Nav = () =>{
             <li className='linav'><NavLink to = '/FAQs'>FAQs </NavLink></li>
             <li className='linav'><NavLink to = '/Gallery'>Gallery </NavLink></li>
             <li className='linav'><NavLink to = '/Teams'>Teams </NavLink></li>
-            <li className='linav'><NavLink to = '/Forms'>Forms </NavLink></li>
             <li className='linav'><NavLink to = '/Contact'>Contact Us! </NavLink></li>
             <li className='linav'><NavLink to = '/Conference'>Our Conference </NavLink></li>
             <li className='linav'><NavLink to = '/Donations/Sponsorships'>Donations/Sponsorships </NavLink></li>
@@ -34,7 +33,6 @@ const Main =()=>(
     <Route path='/' element={<Home/>}></Route>
     <Route path='/Contact' element={<Contact/>}></Route>
     <Route path='/FAQs' element={<FAQ/>}></Route>
-    <Route path='/Forms' element={<Forms/>}></Route>
     <Route path='/Teams' element={<Teams/>}></Route>
     <Route path='/Gallery' element={<Gallery/>}></Route>
     <Route path='/Conference' element={<Conference/>}></Route>
