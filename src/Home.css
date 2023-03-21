@@ -6,6 +6,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 
 }
 h1{
@@ -80,7 +81,7 @@ and (min-device-width : 200px)
 and (max-device-width : 480px) {
 #sponsor2{
   color:white;
-  background:unset;
+  /* background:unset; */
   background-clip: unset;
   -webkit-text-fill-color: unset;
   margin-top: 0em;

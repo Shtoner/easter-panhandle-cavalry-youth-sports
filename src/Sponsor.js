@@ -9,8 +9,9 @@ export default function Sponsor(){
     <div className='App'>
     <img src={Logo} className='logo' alt="logo" />
         <header className='App-header'>
-            <h1>Donations/Sponsorships</h1>
+            <h1>Sponsorships</h1>
             <img src={Intro} className='App-header2' />
+            <a href="/SponsorIntro.pdf" download={'SponsorIntro.pdf'}><h3>Download</h3></a>
     <img src={flyer} className='App-header2'alt='flyer'/>
             <img src={Form} className='App-header2' />
             <a href='/SponsorFormm.pdf' download={'SponsorForm.pdf'}><h3>Download</h3></a>

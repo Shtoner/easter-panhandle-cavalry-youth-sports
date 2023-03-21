@@ -5,6 +5,7 @@ import image1 from './attachments/image1.png'
 import image2 from './attachments/image2.jpeg'
 import image3 from './attachments/image3.jpeg'
 import eNe from './attachments/e&e.jpg'
+import MissionPic from './MissionPic.jpg'
 import './Home.css';
 import React,{useState} from 'react'
 
@@ -28,14 +29,18 @@ function Home() {
 {/* <a>Donations/Sponsorships</a>
 field equipment(
 ) */}
-        <div>
+        <div className='App-header'>
           <h2>Our Mission</h2>
-The Eastern Panhandle Cavalry Youth Football organization is a non-profit organization (Tax ID: 88-0528782), and one of many under The Eastern Panhandle Cavalry Youth Sports Association. We are based out of Martinsburg, WV, and are a part of the American Youth Football League (AYFL), that competes at a national level. Our teams are composed of youth athletes from Berkeley, Jefferson, and Morgan counties, and extend just across our border to neighboring communities and counties. The EP Cavalry Organization gives youth athletes from all over the Eastern Panhandle and neighboring communities the opportunity to compete with each other and build relationships.
+<p>The Eastern Panhandle Cavalry Youth Football organization is a non-profit organization (Tax ID: 88-0528782), and one of many under The Eastern Panhandle Cavalry Youth Sports Association. We are based out of Martinsburg, WV, and are a part of the American Youth Football League (AYFL), that competes at a national level. Our teams are composed of youth athletes from Berkeley, Jefferson, and Morgan counties, and extend just across our border to neighboring communities and counties. The EP Cavalry Organization gives youth athletes from all over the Eastern Panhandle and neighboring communities the opportunity to compete with each other and build relationships.
+</p>
+<p>EP Cavalry YFT provides area kids with the opportunity to achieve their dreams through personal development as well as athletic training. We work with our children to promote: good character; hard work; dedication; sportsmanship; learn responsibility & teamwork; perseverance, and self-confidence. EPC provides a structured, safe, and secure environment for the children to learn these life skills. 
+</p>
 <br></br>
-EP Cavalry YFT provides area kids with the opportunity to achieve their dreams through personal development as well as athletic training. We work with our children to promote: good character; hard work; dedication; sportsmanship; learn responsibility & teamwork; perseverance, and self-confidence. EPC provides a structured, safe, and secure environment for the children to learn these life skills. 
+<br></br>
 
-
+<img className='brand'src={MissionPic}></img>
         </div>
+
         <br></br>
           <h2>Shout Out Our Sponsors!</h2>
          <div id='sponsor'><img src={image1} className='brand'/><h3 className='brandname'>Cardinal Realty Group, Inc.</h3></div>
