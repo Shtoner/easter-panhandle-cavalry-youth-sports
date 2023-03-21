@@ -15,7 +15,7 @@ export default function FAQ(){
             
             </h4> 
          <h4>
--Athlete must attend tryouts! (January 28, 2022) 10am/ location TBD
+-Athletes encouraged to attend a tryout/workout or combine
             
             </h4> 
          <h4>

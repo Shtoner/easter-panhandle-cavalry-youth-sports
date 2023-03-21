@@ -16,6 +16,7 @@ function Home() {
     <div className="App">
         <img src={Logo} className='logo' alt="logo" />
       <header className="App-header">
+        <h1>Home</h1>
       <a href='https://www.facebook.com/groups/444599141095663'>
         <h2>Check out our Facebook page!</h2>
         </a>
@@ -29,7 +30,7 @@ field equipment(
 ) */}
         <div>
           <h2>Our Mission</h2>
-The Eastern Panhandle Cavalry Youth Football organization is a non-profit organization, and one of many under The Eastern Panhandle Cavalry Youth Sports Association. We are based out of Martinsburg, WV, and are a part of the American Youth Football League (AYFL), that competes at a national level. Our teams are composed of youth athletes from Berkeley, Jefferson, and Morgan counties, and extend just across our border to neighboring communities and counties. The EP Cavalry Organization gives youth athletes from all over the Eastern Panhandle and neighboring communities the opportunity to compete with each other and build relationships.
+The Eastern Panhandle Cavalry Youth Football organization is a non-profit organization (Tax ID: 88-0528782), and one of many under The Eastern Panhandle Cavalry Youth Sports Association. We are based out of Martinsburg, WV, and are a part of the American Youth Football League (AYFL), that competes at a national level. Our teams are composed of youth athletes from Berkeley, Jefferson, and Morgan counties, and extend just across our border to neighboring communities and counties. The EP Cavalry Organization gives youth athletes from all over the Eastern Panhandle and neighboring communities the opportunity to compete with each other and build relationships.
 <br></br>
 EP Cavalry YFT provides area kids with the opportunity to achieve their dreams through personal development as well as athletic training. We work with our children to promote: good character; hard work; dedication; sportsmanship; learn responsibility & teamwork; perseverance, and self-confidence. EPC provides a structured, safe, and secure environment for the children to learn these life skills. 
 

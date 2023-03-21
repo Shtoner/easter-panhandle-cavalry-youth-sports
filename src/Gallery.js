@@ -63,8 +63,11 @@ function fire(e){
 }
     return(
         <div className='App'>
+        
         <img src={Logo} className='logo' alt="logo" />
-            <header className='App-header2'>
+
+        <header className='App-header2'>
+        <h1>Gallery</h1>
                 
         <video className='App-logo3'src={vid2}controls></video>
         <video className='App-logo2' src={vid1}controls></video>

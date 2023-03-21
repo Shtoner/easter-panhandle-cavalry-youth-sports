@@ -1,7 +1,6 @@
 import {NavLink,Routes, Route} from 'react-router-dom'
 import Home from './Home'
 import FAQ from './FAQ'
-import Forms from './Forms'
 import Teams from './Teams'
 import Gallery from './Gallery'
 import Sponsor from './Sponsor'
