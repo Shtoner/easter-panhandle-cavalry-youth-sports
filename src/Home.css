@@ -90,6 +90,16 @@ and (max-device-width : 480px) {
   background-color: unset;
 }
 }
+@media only screen and (min-device-width:1400px){
+  .logo{
+    height: 35em;
+  }
+}
+@media only screen and (min-device-width:2000px){
+  .logo{
+    height: 50em;
+  }
+}
 /* @media
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
