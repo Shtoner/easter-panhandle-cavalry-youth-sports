@@ -22,6 +22,7 @@ export default function Conference(){
         <img src={Logo} className='logo' alt="logo" />
 
             <header className="App-header">
+                <h1>Our Conference</h1>
 <img src={pic1} className='App-header2'/>
 <h3 className='brandname'>Dmv Hammers-Aldie, VA</h3>
 <img src={pic2} className='App-header2'/>
